@@ -5,25 +5,91 @@
 }
 
 body {
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
   font-size: 16px;
   color: black;
-
 }
 h2 {
   margin-top: 1rem !important;
+}
+
+#tiles {
+  justify-content: space-between;
 }
 
 .jumbotron {
   padding: 0.2rem 0.2rem;
   margin: 2rem 0;
   background-color: rgb(245, 245, 245);
-  border-radius: .3rem;
+  border-radius: 0.3rem;
+  box-shadow: 0px 0px 5px black;
+  max-height: 400px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-image: url(../img/01-white-palace-tavernaki-greek-restaurant-17817.jpg);
 }
 
-.jumb-img {
+.text-box {
+  padding: 10px 0 0 0 !important;
   width: 100%;
-  height: auto;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  border-radius: 1rem 1rem 0 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.nav-tiles {
+  margin: 2rem 0;
+  background-color: rgb(245, 245, 245);
+  border-radius: 0.3rem;
+  box-shadow: 0px 0px 5px black;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+.nav-tiles:hover {
+  transform: scale(1.02, 1.02) ;
+
+
+}
+
+
+.nav-tile-1 {
+  background-image: url(../img/rest1.jpg);
+}
+
+.nav-tile-2 {
+  background-image: url(../img/rest2.jpg);
+}
+
+#tiles {
+ margin: 0;
+}
+
+.nav-tile-3 {
+  background-image: url(../img/rest3.jpg);
+}
+
+.navigation-link {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  text-decoration: inherit;
+}
+
+.navigation-link:hover {
+  color: rgb(212, 212, 212);
+}
+
+.navigation-link > span {
+  bottom: 0;
 }
 
 .hover-toggler:hover {
@@ -44,13 +110,11 @@ h2 {
   font-weight: 600 !important;
 }
 
-
 .brand {
   padding: 15px 0 0 120px !important;
-
 }
 
-h1{
+h1 {
   margin-bottom: 0rem !important;
 }
 
@@ -85,7 +149,6 @@ h1{
 
 .menu-list {
   list-style: none;
-
 }
 
 .menu-list li {
@@ -100,7 +163,7 @@ h1{
 }
 
 .menu-list li a:hover {
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 .box-header {
@@ -114,7 +177,6 @@ h1{
   right: 0px;
   position: absolute;
 }
-
 
 .text-box {
   padding: 30px 10px 10px 10px;
@@ -137,11 +199,11 @@ h1{
   background-color: brown;
 }
 
-
 .row {
   width: 100%;
 }
-@media (min-width: 992px) {
+
+/* @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
     float: left;
   }
@@ -235,7 +297,7 @@ h1{
     border-color: black !important;
     border-width: 2px !important;
   } */
-  .col-sm-1, .col-sm-2, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+/* .col-sm-1, .col-sm-2, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
     float: left;
   }
   .col-sm-1 {
@@ -274,16 +336,4 @@ h1{
   .col-sm-12 {
     width: 100%;
   }
-}
-
-@media (min-width: 768px) {
-  .jumbotron {
-    box-shadow: 0px 0px 5px black;
-    max-height: 400px;
-    height: 400px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    background-image: url(../img/01-white-palace-tavernaki-greek-restaurant-17817.jpg);
-  }
-}
+} */
