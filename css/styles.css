@@ -17,6 +17,15 @@ h2 {
   justify-content: space-between;
 }
 
+#hours > span, #address > span {
+  font-size: 1.3em;
+  font-style: italic;
+}
+
+#hours, #address {
+  line-height: 2;
+}
+
 .jumbotron {
   padding: 0.2rem 0.2rem;
   margin: 2rem 0;
@@ -39,6 +48,16 @@ h2 {
   bottom: 0;
   border-radius: 1rem 1rem 0 0;
   background-color: rgba(0, 0, 0, 0.75);
+}
+
+#footer-tiles {
+  justify-content: space-around;
+}
+
+.footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: rgb(230, 230, 230);
 }
 
 .nav-tiles {
@@ -134,6 +153,7 @@ h1 {
   background: transparent;
 }
 
+
 #header-nav {
   box-shadow: 0 0 3px 0 black;
   min-height: 110px;
@@ -146,6 +166,8 @@ h1 {
   height: 100px;
   width: 100px;
 }
+
+
 
 .menu-list {
   list-style: none;
@@ -201,6 +223,12 @@ h1 {
 
 .row {
   width: 100%;
+}
+
+@media (min-width: 767px) {
+  .footer-sec {
+    border-right: 1px solid rgb(190, 190, 190);
+  }
 }
 
 /* @media (min-width: 992px) {
